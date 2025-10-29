@@ -1,3 +1,6 @@
+**Live demo:** https://jacopo992010-oss.github.io/ablation-monotony-bench/  
+**How to reproduce:** Download **Release v1**, esegui i notebook con i seed di default, NON cambiare algoritmo/iperparametri/valutazione; varia solo F⊂G; riporta media±std (≥30 rep) per livello.
+
 https://jacopo992010-oss.github.io/ablation-monotony-bench/
 # Ablation Monotony Bench (synthetic)
 
