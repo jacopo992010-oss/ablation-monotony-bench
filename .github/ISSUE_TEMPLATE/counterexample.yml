@@ -1,0 +1,27 @@
+name: Counterexample attempt
+description: Submit a stable violation of ablation monotonicity under fixed model/eval
+title: "[counterexample] ..."
+labels: ["help wanted","reproducible"]
+assignees: []
+
+body:
+  - type: textarea
+    attributes:
+      label: Summary
+      description: Describe where monotonicity fails (metric up with more info).
+  - type: textarea
+    attributes:
+      label: Minimal Reproducible Example
+      description: Code + seeds + data. Same model/hypers across levels.
+  - type: input
+    attributes:
+      label: Metric
+      placeholder: e.g., MSE / LogLoss / ROCAUC / Regret
+  - type: input
+    attributes:
+      label: Replications
+      placeholder: e.g., 50
+  - type: textarea
+    attributes:
+      label: Results
+      description: Means ± std / 95% CI for each level.
